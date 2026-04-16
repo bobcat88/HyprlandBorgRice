@@ -1,0 +1,87 @@
+# =============================================================================
+# Sherlock config — Material You style
+# ~/.config/sherlock/config.toml
+# Hardware: AMD RX 6800 · 3440×1440@165Hz · FR AZERTY
+# =============================================================================
+
+[default_apps]
+terminal        = "kitty"
+browser         = "firefox"
+calendar_client = "thunderbird"
+
+[units]
+lengths      = "meters"
+weights      = "kg"
+volumes      = "l"
+temperatures = "C"
+currency     = "eur"
+
+[debug]
+try_suppress_errors   = false
+try_suppress_warnings = false
+app_paths             = []
+
+[appearance]
+# Slightly wider to breathe on 3440px ultrawide — matching material-you generosity
+width         = 960
+height        = 600
+# cairo = fastest cold start; gl = smoother AMD transitions for MD3 feel
+gsk_renderer  = "gl"
+icon_size     = 24
+use_base_css  = true
+opacity       = 1.0
+search_icon   = true
+num_shortcuts = 5
+
+[behavior]
+use_xdg_data_dir_icons = false
+animate        = true
+remember_query = false
+n_clicks       = 2
+
+[keybinds]
+"ctrl-j"      = "item_down"
+"ctrl-k"      = "item_up"
+"ctrl-h"      = "item_left"
+"ctrl-l"      = "item_right"
+"ctrl-Return" = "exec_inplace"
+"ctrl-i"      = "toggle_context"
+"ctrl-Back"   = "clear_bar"
+"Escape"      = "exit"
+
+[files]
+fallback = "~/.config/sherlock/fallback.json"
+css      = "~/.config/sherlock/main.css"
+alias    = "~/.config/sherlock/sherlock_alias.json"
+ignore   = "~/.config/sherlock/sherlockignore"
+actions  = "~/.config/sherlock/sherlock_actions.json"
+
+[runtime]
+multi        = false
+display_raw  = false
+center       = false
+photo_mode   = false
+daemonize    = true
+
+[caching]
+enable = true
+cache  = "~/.cache/sherlock/desktop_cache.bin"
+
+[expand]
+enable = true
+edge   = "top"
+margin = 60
+
+[backdrop]
+enable  = true
+opacity = 0.4
+edge    = "top"
+
+[status_bar]
+enable = true
+
+[search_bar_icon]
+enable    = true
+icon      = "system-search-symbolic"
+icon_back = "sherlock-back"
+size      = 24

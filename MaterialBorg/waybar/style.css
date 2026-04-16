@@ -1,0 +1,59 @@
+/* Borg UI Standard — Shared Waybar CSS */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", "Roboto", "Helvetica", Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(11, 11, 11, 0.85); /* Borg Deep with opacity */
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+    
+    /* CRITICAL: No outer line glow as requested */
+    box-shadow: none !important;
+    border-bottom: 2px solid #1A1A1A; /* Subtle industrial divider instead of glow */
+}
+
+/* Base style for all modules */
+#workspaces,
+#window,
+#cpu,
+#memory,
+#battery,
+#tray,
+#clock {
+    padding: 0 10px;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+/* Assimilated Logo Styling */
+#image.logo {
+    padding-left: 12px;
+    padding-right: 8px;
+}
+
+/* Focused Workspace — Assimilation Green */
+#workspaces button.focused,
+#workspaces button.active {
+    color: #00FF41;
+    border-bottom: 2px solid #00FF41;
+}
+
+#workspaces button.urgent {
+    color: #FFB000;
+}
+
+/* Tooltips */
+tooltip {
+    background: rgba(11, 11, 11, 0.95);
+    border: 1px solid #1A1A1A;
+}
+
+tooltip label {
+    color: #ffffff;
+}

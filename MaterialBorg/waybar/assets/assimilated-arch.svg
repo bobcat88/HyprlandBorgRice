@@ -1,0 +1,25 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arch Base Shape -->
+  <path d="M128 32L32 224L128 192L224 224L128 32Z" fill="#00FF41" fill-opacity="0.1"/>
+  <path d="M128 48L52 200L128 174L204 200L128 48Z" stroke="#00FF41" stroke-width="8" stroke-linejoin="round"/>
+  
+  <!-- Borg Circuitry Overlays -->
+  <!-- Vertical neural link -->
+  <path d="M128 48V174" stroke="#00FF41" stroke-width="4" stroke-dasharray="10 5"/>
+  
+  <!-- Horizontal logic gates -->
+  <circle cx="128" cy="110" r="12" stroke="#00FF41" stroke-width="4" fill="#0B0B0B"/>
+  <path d="M116 110H80V140" stroke="#00FF41" stroke-width="3"/>
+  <path d="M140 110H176V140" stroke="#00FF41" stroke-width="3"/>
+  
+  <!-- Peripheral nodes -->
+  <rect x="76" y="140" width="8" height="8" fill="#00FF41"/>
+  <rect x="172" y="140" width="8" height="8" fill="#00FF41"/>
+  <circle cx="128" cy="110" r="4" fill="#00FF41">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Scanning lines -->
+  <path d="M60 180H196" stroke="#00FF41" stroke-width="1" opacity="0.5"/>
+  <path d="M75 165H181" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
+</svg>
