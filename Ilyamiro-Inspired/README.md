@@ -1,6 +1,10 @@
-# Ilyamiro-Inspired Config
+# Ilyamiro-Inspired Borg Profile
+Industrial, sharp, and hyper-efficient.
 
-This configuration profile is a heavily optimized adaptation of [ilyamiro's imperative-dots](https://github.com/ilyamiro/imperative-dots). It is designed for users who prioritize speed, minimal visual noise, and high-refresh-rate fluidity.
+![Ilyamiro Borg Mockup](../previews/ilyamiro_mockup.png)
+
+## Overview
+This profile is a tribute to [ilyamiro](https://github.com/ilyamiro) but assimilated with **Borg Brand Identity**. It prioritizes technical density, sharp corners, and high-frequency animations.
 
 ## Credits & Inspiration
 - **Original Author**: [ilyamiro](https://github.com/ilyamiro)

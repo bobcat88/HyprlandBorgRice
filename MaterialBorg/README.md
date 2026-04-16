@@ -1,6 +1,12 @@
 # MaterialBorg Config
 
-MaterialBorg is the "premium" face of the Borg collective. It leverages Material You've dynamic color orchestration and premium design tokens to create a workspace that is both beautiful and highly functional.
+# MaterialBorg Profile
+Premium, rounded, and personalize-first.
+
+![MaterialBorg Mockup](../previews/material_mockup.png)
+
+## Overview
+This profile is inspired by [hyprland-material-you](https://github.com/hyprland-community/hyprland-material-you) but hardened into a **Borg** aesthetic. It blends Google's Material Design principles with tactical industrial accents.
 
 ## Credits & Inspiration
 - **Concept**: Material You (Google Design System).

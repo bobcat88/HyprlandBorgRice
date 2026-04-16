@@ -11,6 +11,13 @@ We don't just "rice." We **assimilate**. This project takes the finest UI/UX pat
 - **[BorgBrandBook](./BorgBrandBook)**: The definitive guide to the Borg visual identity, personality, and design tokens.
 - **[Dependencies](./dependencies)**: Local clones of all critical tools for offline modification and improvement.
 
+## 🎨 Visual Profiles
+
+| [Ilyamiro-Inspired](./Ilyamiro-Inspired) | [MaterialBorg](./MaterialBorg) |
+| :---: | :---: |
+| ![Ilyamiro](./previews/ilyamiro_mockup.png) | ![MaterialBorg](./previews/material_mockup.png) |
+| **Industrial / Sharp** | **Premium / Glassmorphic** |
+
 ## Performance Optimization (Assimilated Tweaks)
 
 ### Ryzen 5000 Series (AMD)
