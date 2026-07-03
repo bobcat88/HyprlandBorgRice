@@ -1,3 +1,15 @@
+---
+type: reference
+tags:
+  - project/hyprlandconfig
+aliases:
+- more stuff
+---
+# more stuff
+Up: [[HyprlandConfig INDEX]]
+
+#projects #hyprlandconfig
+
 check configs, 
 https://github.com/Skxxtz/sherlock + 
 https://github.com/kando-menu/kando/releases/tag/v2.3.0-beta.2 
@@ -15,7 +27,6 @@ https://github.com/BlueManCZ/hyprmod
 
 Voice/notes recording: 
 https://github.com/goodroot/hyprwhspr
-
 
 read : /home/_johan/Documents/Projects/AI/obsidian-linux-readme.md 
 API : for obsidian if needed : 74523d8d493c67eb9a59ef28eb35b7518503424a9441a7c8b1a0f0da5ee66f17

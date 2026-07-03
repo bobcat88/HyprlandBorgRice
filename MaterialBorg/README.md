@@ -1,4 +1,14 @@
+---
+type: reference
+tags:
+  - project/hyprlandconfig
+aliases:
+- README
+---
 # MaterialBorg Config
+Up: [[HyprlandConfig INDEX]]
+
+#projects #hyprlandconfig #materialborg
 
 # MaterialBorg Profile
 Premium, rounded, and personalize-first.

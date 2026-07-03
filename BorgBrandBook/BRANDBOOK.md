@@ -1,4 +1,14 @@
+---
+type: reference
+tags:
+  - project/hyprlandconfig
+aliases:
+- BRANDBOOK
+---
 # Borg Brand Book: The Philosophy of Assimilation
+Up: [[HyprlandConfig INDEX]]
+
+#projects #hyprlandconfig #borgbrandbook
 
 ## 1. Brand Identity: The Borg
 The "Borg" brand is not about collective submission; it is about **Technological Perfection through Integration**. It takes the best of every ecosystem—Ilyamiro's fluidity, Material You's personalization, and CachyOS's raw performance—and assimilates them into a single, unified experience.

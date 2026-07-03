@@ -1,4 +1,15 @@
+---
+type: reference
+tags:
+  - project/hyprlandconfig
+aliases:
+- README
+---
 # Ilyamiro-Inspired Borg Profile
+Up: [[HyprlandConfig INDEX]]
+
+#projects #hyprlandconfig #ilyamiroinspired
+
 Industrial, sharp, and hyper-efficient.
 
 ![Ilyamiro Borg Mockup](../previews/ilyamiro_mockup.png)

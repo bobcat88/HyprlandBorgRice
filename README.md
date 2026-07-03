@@ -1,4 +1,14 @@
+---
+type: reference
+tags:
+  - project/hyprlandconfig
+aliases:
+- README
+---
 # HyprlandBorgRice: The Ultimate Assimilation
+Up: [[HyprlandConfig INDEX]]
+
+#projects #hyprlandconfig
 
 Welcome to the **HyprlandBorgRice** project. This repository is a meticulously curated environment for Hyprland, designed for peak performance on **Ryzen 5000 / AMD RX 6000** series hardware and optimized for **CachyOS**.
 
